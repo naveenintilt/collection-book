@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collection Book</title>
+<style>
+  :root{--bg:#ffffff;--fg:#16181d;--muted:#5c6370;--line:#e4e7ec;--accent:#1f5eff}
+  @media (prefers-color-scheme:dark){:root{--bg:#121418;--fg:#e9ecf1;--muted:#9aa3b2;--line:#262a31;--accent:#7aa2ff}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:56px 16px 80px}
+  h1{font-size:2rem;margin:0 0 .25rem;letter-spacing:-.02em}
+  .tag{color:var(--muted);margin:0 0 2.5rem}
+  h2{font-size:1.1rem;margin:2.5rem 0 .75rem;letter-spacing:-.01em}
+  ul{padding-left:1.1rem;margin:0}
+  li{margin:.35rem 0}
+  a{color:var(--accent)}
+  footer{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+  footer a{margin-right:1rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Collection Book</h1>
+  <p class="tag">A small Android app for keeping track of loan collections.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Records customers, loan amounts and repayment schedules.</li>
+    <li>Tracks daily and weekly collection entries.</li>
+    <li>Produces a receipt for each payment that can be shared.</li>
+    <li>Backs the collection book up to the owner's own Google Drive.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>Collection Book is a private, personal-use app. It is not distributed on the
+  Google Play Store and is installed directly by its owner.</p>
+
+  <h2>Google Drive backup</h2>
+  <p>If you connect a Google account, the app creates a folder named
+  <strong>Collection Book Backups</strong> in that account's Drive and writes a
+  backup copy of the app's own data into it. It does not read, change or delete
+  any other file in your Drive.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about the app or this site: <a href="mailto:naveen.intilt@gmail.com">naveen.intilt@gmail.com</a></p>
+
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a>
+    <a href="./terms.html">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
